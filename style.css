@@ -387,6 +387,10 @@ section.visible {
     border-radius: 0.3rem;
 }
 
+.thing{
+    flex-direction: column;
+}
+
 .star {
     color: rgba(255, 255, 255, 0.8);
     margin: 0;
@@ -736,9 +740,14 @@ section.visible {
     }
 }
 
-@media (max-width: 530px){
-    #yhh{
-        display: none;
+@media (max-width: 720px){
+        
+    .whole {
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height:auto;
     }
+
 }
 
